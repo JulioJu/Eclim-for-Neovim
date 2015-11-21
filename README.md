@@ -1,6 +1,12 @@
 # Eclim-for-Neovim
 
-See also Juanes852 bug report in https://github.com/ervandew/eclim/issues/385.
+***Do not use this plugin, it isn't usefull***
+
+Finally, I've found the problem, under Arch Linux, you **must** install the [Aur package](https://aur.archlinux.org/packages/eclim/). Then, `ln -s /usr/share/vim/vimfiles/{eclim, plugin} ~/.vim`. On my comuputers on Archlinux, there is a problem with [eclim_2.5.0.jar](http://eclim.org/install.html) with Neovim (of course, I've tried to download it again).
+
+I've wrote in https://github.com/ervandew/eclim/issues/385, but I've deleted : 
+«   *Again, Eclim no longer has been recognized by Neovim. I've found a best solution to use Eclim in Neovim. I've found https://github.com/starcraftman/vim-eclim, I've installed with NeoBundle, and with a simple adatation Eclim works very well in Neovim ! To have the last one Eclim, I made a symlink in ~/.vim/bundle/vim-eclim to the target ~/.nvim/eclim and it works out of the box (do not made in step 2 of starcraftman/vim-eclim). Maybe, you can also simply use https://github.com/zowens/vim-eclim, with the current Eclim.*  »
+
 
 ## Installation
 
